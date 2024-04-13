@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+p, h1 {
+    color: black;
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+#container {
+    background-color: rgb(7, 209, 76, 80%);
+    border: 3px solid #000000;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px 10px black;
+    color: white;
+    height: 95vh;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
